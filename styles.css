@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#inputs {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#gameboard {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    font-size: 160px;
+    text-align: center;
+}
+
+#message {
+    font-size: 60px;
+    margin: 0 auto;
+}
